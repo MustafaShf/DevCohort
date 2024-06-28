@@ -1,0 +1,19 @@
+{
+  "name": "nodelearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-creator-node": "^2.3.5",
+    "puppeteer": "^22.11.0"
+  },
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}

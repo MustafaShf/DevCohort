@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Mustafa</title>
+    <link rel="shortcut icon" href="bag.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="complete_Container blur">
+        <header class="header">
+            <a href="#" class="logo">GM</a>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skill Set</a>
+            </nav>
+            <a href="#" onclick="toggle()" class="ContactUs">Contact Us</a>
+        </header>
+        <div class="hero" id="particles-js">
+            <div class="text">
+                <h2>Hi <span class="wave"> 👋 </span></h2>
+                <h2 >My Name is <span >Ghulam Mustafa</span></h2>
+                <h2>I'm a <span class="auto-type"></span></h2>
+                <div class="btns">
+                    <a href="https://www.linkedin.com/in/mustafashf/" class="get-in-touch">Get In Touch</a>
+                    <a href="https://drive.google.com/file/d/1xW32M8zNi7xBOE5gUdntb89dK1ukYGEy/view" class="CV">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-img-sec">
+                <img class="hero-img" src="./profile.png" alt="">
+            </div>
+        </div>
+        <div id="aboutAddress">
+            <div id="about" class="about">
+                <img class="hero-img" src="./profile.png" alt="">
+                <div class="textContent">
+                    <h2>About</h2>
+                    <span class="aboutline">-</span>
+                    <p>As a dedicated Software Engineering student at <span class="textDeco">FAST National University of Computer and Emerging Sciences</span>, Lahore, I am driven by a passion for technology and innovation. Each project I undertake and every line of code I write reflects my commitment to excellence in the ever-evolving tech landscape.</p>
+<p><strong>Academic Background:</strong> Currently pursuing a Bachelor's degree in Software Engineering at FAST-NU, I strive for both academic excellence and practical experience.</p>
+<p><strong>Technical Proficiencies:</strong> With expertise in web development, I specialize in front-end technologies such as <span class="textDeco">React.js, HTML, CSS, and JavaScript</span>. I am also proficient in C++ and skilled in version control using Git, having collaborated on various projects via GitHub. Additionally, I am a certified Microsoft Office Specialist, showcasing advanced proficiency in productivity tools.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="skillSet" id="skills">
+            <div class="container">
+                <h2 class="text-center">Skill Set</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h5>JavaScript</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>C++</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>Tailwind CSS</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>Bootstrap</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>FireBase</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>WordPress</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>© 2024 Ghulam Mustafa. All Rights Reserved.</p>
+                <!-- <div class="social-media">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                </div> -->
+            </div>
+        </footer>
+    </div>
+    <div class="overlay" onclick="toggle()"></div>
+    <div class="popup">
+        <div class="popup-content">
+            <form  action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="08d2494c-cfa3-405d-b331-a5e944f64edd">
+                <h3>Contact Us</h3>
+                <input name="email" type="email" class="form-control mb-3" placeholder="Email" required>
+                <textarea name="message" class="form-control mb-3" placeholder="Message" required></textarea>
+            <div class="popup-btn">
+                <button type="submit" class="btn " style="background-color: #ff6347; color: white;">Submit</button>
+                <button onclick="toggle()" class="btn " style="background-color: #ff6347; color: white;">Cancel</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Programmer", "Designer", "Frontend Dev."],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+
+        function toggle() {
+            var blurElements = document.getElementsByClassName('blur');
+            for (var i = 0; i < blurElements.length; i++) {
+                blurElements[i].classList.toggle('active');
+            }
+            var popup = document.querySelector('.popup');
+            popup.classList.toggle('active');
+            var overlay = document.querySelector('.overlay');
+            overlay.classList.toggle('active');
+        }
+    </script>
+   
+    
+    
+</body>
+<!-- <script src="./app.js"></script>
+<script src="./particles.js"></script> -->
+
+</html>
